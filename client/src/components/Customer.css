@@ -1,0 +1,56 @@
+/* Customer.css */
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .customer-form,
+  .order-form {
+    width: 500px; /* Adjusted width to make both forms equal */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .customer-form h2,
+  .order-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .customer-form label,
+  .order-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .customer-form input,
+  .order-form input,
+  .customer-form select,
+  .order-form select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .customer-form button,
+  .order-form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .customer-form button:hover,
+  .order-form button:hover {
+    background-color: #0056b3;
+  }
+  

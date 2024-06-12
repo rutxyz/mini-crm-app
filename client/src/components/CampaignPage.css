@@ -1,0 +1,31 @@
+/* CampaignPage.css */
+
+/* Container styling */
+.campaign-page-container {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Table styling */
+.campaign-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.campaign-table th,
+.campaign-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.campaign-table th {
+  background-color: #f2f2f2;
+}
+
+.campaign-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.campaign-table tr:hover {
+  background-color: #ddd;
+}
